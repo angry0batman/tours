@@ -1,0 +1,87 @@
+.search-card-container {
+    background-image: url('https://whc.unesco.org/uploads/thumbs/activity_725-2148-704-20220308132126.jpg'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  
+  .search-card {
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly increased opacity */
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow for more depth */
+    text-align: center;
+  }
+  
+  .search-card h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .search-card h4 {
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  .search-card .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .search-card .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .search-card .form-group input[type="text"],
+  .search-card .form-group input[type="date"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .search-card .form-group input[type="text"]:focus,
+  .search-card .form-group input[type="date"]:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    background-color: #fff;
+  }
+  
+  .search-card button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .search-card button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .search-card button:active {
+    background-color: #003d7a;
+    transform: translateY(0);
+  }
+  
